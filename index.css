@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+}
+main{
+    height: fit-content;
+    width: 93.6806rem;
+    justify-content: center;
+    
+}
+.rightside {
+    background-color: whitesmoke;
+    width: 65.5763em;
+    height: 135em;
+    color: black;
+}
+
+.leftside {
+    background-color: #acccf4;
+    width: 28.1031em;
+    height: 135em;
+    display: block;
+    color: black;
+}
+.CV {
+    display: flex;
+}
+.image {
+    margin-top: 1.25em;
+    border-radius: 8.75em;
+    margin-left: 6.25em;
+    border: 3px solid #fcfcac;
+    height: 12.5em;
+    width: 12.5em;
+    margin-bottom: 2.5em;
+}
+.contact_info{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-right: 3.4375em;
+}
+.contact_ul{
+    list-style: none;
+}
+.separator{
+    display: flex;
+    justify-content: center;
+}
+.languages {
+    display: block;
+    justify-content: center;
+    margin-left: 6.25em;
+}
+.aptitudes {
+    display: block;
+    justify-content: center;
+    margin-left: 6.25em;
+}
+.informatic_skills{
+    display: block;
+    justify-content: center;
+    margin-left: 6.25em;
+}
+.adjust {
+    width: 13.75em;
+}
+.courses_certificates{
+    display: block;
+    justify-content: center;
+    margin-left: 6.25em;
+    width: 13.75em;
+}
+.container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#name {
+    font-weight: bold;
+}
+.person {
+    height: 15%;
+}
+.buttons {
+    background-color: #acccf4;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 8.75em;
+    padding: 14px 28px;
+    font-size: 24px;
+    border: none;
+    -webkit-transition: background-color 800ms linear;
+    -ms-transition: background-color 800ms linear;
+    transition: background-color 800ms linear;
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: #fcfcac;
+    color: black;
+    -webkit-transition: color 800ms linear;
+    -ms-transition: color 800ms linear;
+    transition: color 800ms linear;
+}
+.imgs{
+    height: 9.375rem;
+    width: 9.375rem;
+    border-radius: 8.75em;
+}
+.spans {
+    font-weight: bolder;
+    color: #5086c1;
+    font-size: 30px;
+}
+.ps{
+    margin-top: 0.875rem;
+}
+.uls {
+    width: 20.625rem;
+    margin-left: 18.75rem;
+}
+.hidden{
+    display: none;
+}
+.img_container{
+    text-align: center;
+}
+#ul_container {
+    text-align: center;
+}
